@@ -1,0 +1,134 @@
+body {
+    background: rgb(255,239,186);
+background: linear-gradient(90deg, rgba(255,239,186,1) 21%, rgba(255,255,255,1) 78%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  li {
+    display: inline;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: grey;
+    font-size: 17px;
+  }
+  
+  .image {
+    float: left;
+    margin-left: 60px;
+  }
+  .contact-btn {
+      font-size: 14px;
+    padding: 6px 30px;
+    border-radius: 30px;
+    margin: 0 35px;
+    border: 0px;
+    background-image:linear-gradient(to right,#FFE259, #FFA751) ;
+  }
+  .contact-btn:hover {
+      font-size: 14.5px;
+    }
+  
+  .box-1 {
+    padding: 80px 50px;
+  }
+  .heading-2 {
+    color: #c64bb8;
+  }
+  .btn{
+      background-image: linear-gradient(to right,
+      #FF4E50,#F9D423);
+      padding: 10px 40px;
+      color: white;
+      border-radius: 30px;
+      font-size: 12px;
+  }
+  .btn:hover{
+      font-size: 12.2px;
+  }
+  .box-2{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 50px;
+  }
+
+  @media screen and (max-width:1010px){
+      body{
+          background-size: cover;
+      }
+      .box-2{
+        margin-left: 40px;
+          width: 500px;
+          height: 500px;
+      }
+      /* .image{
+          margin: -1px;
+          visibility: hidden;
+      } */
+      .contact-btn{
+          display: block;
+          text-align: center;
+          margin:15px 0px;
+      }
+      .nav-items {
+          text-align: left;
+          display: block;
+          margin-inline-start: 50px;
+      }
+      li:hover{
+        color: black;
+        background-color: rgb(180, 178, 178);
+        border-radius: 5px;
+      }
+      .list-1{
+        margin-top: 40px;
+    
+      }
+  }
+  @media screen and (max-width:760px){
+      .box-2{
+          width: 450px;
+          height: 450px;
+          margin-left: 30px;
+      }
+      .list-1{
+        margin-top: 40px;
+    
+      }
+  }
+  @media screen and (max-width:510px){
+      .box-2{
+          width: 300px;
+          height: 300px;
+          margin-left: 30px;
+      }
+      .list-1{
+        margin-top: 40px;
+    
+      }
+  }
+  @media screen and (max-width:430px){
+      .box-1{
+          padding: 80px 0px;
+      }
+      .box-2{
+          width: 250px;
+          height: 250px;
+          margin-left: 30px;
+      } .list-1{
+        margin-top: 40px;
+    
+      }
+  }
+  @media screen and (max-width:250px){
+    .box-2{
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    
+  }
